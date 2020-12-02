@@ -1,0 +1,1962 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Satisfy&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #C23A57;
+}
+
+main{
+	width: 100%;
+	height: 720px;
+	background-color: #C23A57;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 90px;
+	background: url(../img/fondorosa2.png);
+	font size: 40px;
+}
+
+h1{
+	color: #C23A57;
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+	padding-top: 2.4%;
+	padding-left: 12%;
+}
+
+h2{
+	margin-left: 11.7%;
+	color: #E3B16A;
+	font-family: 'Bitter', serif;
+	font-size: 10.7px;
+	margin-top: -10.8px;
+	text-decoration: none;
+}
+
+h3{
+	color: #C23A57;
+	font-family: 'Satisfy', cursive;
+	font-size: 35px;
+	padding-top: 0.5%;
+	padding-bottom: 1.5%;
+}
+
+h4{
+	color: #E3B16A;
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 18px;
+	text-decoration: underline solid #E3B16A;
+	display: inline-block;
+}
+
+h5{
+	color: #C23A57;
+	font-family: 'Bitter', serif;
+	font-size: 15px;
+	padding-top: 1%;
+	text-decoration: underline;
+}
+
+h6{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-right: 40%;
+	line-height: 40%;
+	margin-top: 0.5%;
+	text-align: center;
+}
+
+h7{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 13px;
+	color: #FFFFFF;
+	margin-right: 40%;
+	line-height: 40%;
+	margin-top: 0.5%;
+	text-align: center;
+}
+
+h8{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-left: 45%;
+	text-align: center;
+}
+
+h9{
+	
+	color: #E3B16A;
+	text-decoration: underline solid #E3B16A;
+	
+}
+
+.volver{
+	float: right;
+	padding-right: 4%;
+	margin-top: -50px;
+	color: #C23A57;
+	font size: 40px;
+	font-family: 'Bitter', serif;
+}
+
+
+
+.logo{
+	margin-left: 4%;
+	margin-top: 1.5%;
+	float: left;
+	padding-bottom: 5%;
+}	
+
+nav{
+	width: 100%;
+	height: 50px;
+	background: url(../img/fondorosa.png);
+	font-family: 'Bitter', serif;
+}
+
+nav li{
+	display: inline;
+	padding-bottom: 1%;
+}	
+
+nav li a{
+	text-decoration: none;
+	float: right;
+	padding-right: 4%;
+	color: #C23A57;
+	font-size: 16px;
+}
+
+.banner{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100px;
+	background-color: #E3B16A;
+	padding-top: 1%;
+	padding-left: 4%;
+	font-family: 'Bitter', serif;
+	color: #C23A57;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+
+}
+
+.inscribirse{
+	box-sizing: border-box;
+	width: 13%;
+	height: 38px;
+	background-color: #C23A57;
+	text-align: center;
+	font-family: 'Bitter', serif;
+	color: #E3B16A;
+	position: absolute;
+	border-radius: 6px;
+	margin-left: 40%;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	font-size: 23px;
+	padding-top: 6px;
+	margin-top: -70px;
+
+
+	transition: all 0.3s ease;
+}
+
+.inscribirse:hover{
+	transform: scale(1.1);
+}
+
+
+.inter{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Satisfy', cursive;
+	color: #FFFFFF;
+	margin-top: -30px;
+	margin-right: 3%;
+
+}	
+
+#competencia{
+	text-align: left;
+	font-size: 30px;
+}	
+
+a{
+	text-decoration: none;
+}	
+
+.logoperla{
+	float: right;
+	align-items: right;
+	margin-top: -75px;
+	margin-right: 13%;
+}
+
+.copa{
+	width: 4%;
+	height: 10%;
+	position: absolute;
+	margin-left: 31%;
+	margin-top: -75px;
+}
+
+
+
+.copados{
+	width: 4%;
+	height: 10%;
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 62%;
+}
+
+.versus{
+	position: absolute;
+	text-align: right;
+	font-size: 40px;
+	margin-left: 84.8%;
+	margin-top: -60px;
+	font-family: 'Satisfy', cursive;
+}
+
+.logoprincess{
+	float: right;
+	align-items: right;
+	margin-top: -72px;
+	margin-right: 4%;
+}
+
+.corona{
+	padding-bottom: 1%;
+	float: right;
+	padding-right: 3%;
+}	
+
+.staff{
+	color: #E3B16A;
+	text-decoration: underline;
+}	
+
+.inscripcion{
+	color: #E3B16A;
+	text-decoration: underline;
+}	
+
+.clases{
+	color: #E3B16A;
+	text-decoration: underline;
+}	
+
+section{
+	width: 100%;
+	height: 520px;
+	background-color: #C23A57; 
+}
+
+.lottiefondo{
+	background: url(../img/lottiefondo.png);
+}
+
+#largo{
+	height: auto; 
+}
+
+#largo2{
+	height: 630px;
+	}
+
+#largoweb{
+	height: 1300px;
+	}
+
+.silueta{
+	float: right;
+	position: relative;
+	-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+-ms-filter: "FlipH";
+filter: FlipH;
+
+	}
+
+.silueta2{
+	float: left;
+	position: relative;
+	margin-left: -130px;
+	}
+
+
+.infoclases{
+	margin-left: 17%;
+	margin-right: 17%;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 16px;
+
+}
+
+.clickea
+{
+	margin-left: 17%;
+	margin-right: 17%;
+	padding-bottom: 3%;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 20px;
+
+}
+
+.datos
+{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-top: 0.5%;
+	margin-bottom: 1%;
+	margin-left: 4%;
+}
+
+.separador{
+	margin-top: 3%;
+	margin-left: 40%;
+}	
+
+.separadorult{
+	margin-top: 3%;
+	margin-left: 40%;
+	margin-bottom: 4%;
+}	
+
+.separadorweb{
+	margin-top: 3%;
+	margin-left: 24%;
+}
+
+
+
+html{
+	scroll-behavior: smooth;
+}	
+
+.viñetas1{
+	margin-right: 50%;
+	list-style: none;
+	}
+
+.viñetas2{
+	margin-left: 50%;
+	margin-top: -189px;
+	list-style: none;
+	}
+
+
+#espacio1{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio2{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio3{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio4{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio5{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio6{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio7{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio8{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio9{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio10{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio11{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio12{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio13{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#espacio14{
+	width: 100%;
+	height: 130px;
+	background-color: #C23A57;
+	margin-top: 10%;
+}
+
+#meteorologia{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#isologo{
+	box-sizing: border-box;
+	width: 85%;
+	height: 450px;
+	background-color: #f9928d;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 4%;
+	padding-top: 2%;
+}
+
+#tipoweb{
+	box-sizing: border-box;
+	width: 85%;
+	height: 520px;
+	background-color: #f9928d;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 4%;
+	padding-top: 2%;
+}
+
+#historia{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#artderecha{
+	height: 260px;
+	width: 50%;
+	float: right;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-top: -8px;
+	}
+
+#artderecha2{
+	height: 260px;
+	width: 50%;
+	float: right;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: -8px;
+	}	
+
+#artestrella{
+	height: 260px;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-top: 7%;
+	}	
+
+.paletarosa{
+margin-left: 15%;
+	}	
+
+
+
+	#artcentro{
+	height: 260px;
+	width: 80%;
+	float: center;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-left: 10%;
+	}
+
+	#artcentro2{
+	height: 260px;
+	width: 40%;
+	float: center;
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-left: 30%;
+	margin-top: -200px;
+	}
+
+.estrellacentro{
+	margin-left: 50%;
+}	
+
+.amarillo{
+	margin-top: -200px;
+}	
+
+.numamarillo{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: -160px;
+	margin-right: 7.5%;
+	position: relative;
+
+	
+}
+
+.numamarillo2{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+	margin-left: 77%;
+	
+}
+
+.numamarillito{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: -110px;
+	margin-right: 21%;
+	position: relative;
+
+	
+}
+
+.numamarillito2{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 50%;
+	position: relative;
+	margin-left: 50%;
+	
+}
+
+.yk{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 50%;
+	margin-top: -2px;
+	position: relative;
+	
+
+	
+}
+
+.amarillito{
+margin-top: -192px;
+float: right;
+margin-right: 13%;
+	
+}			
+
+
+.numrosa{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-left: 7.5%;
+	position: relative;
+	margin-top: -160px;
+	
+}
+
+.numrosa2{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-right: 76%;
+	position: relative;
+	
+}
+
+.numrosita{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-left: 22.5%;
+	position: relative;
+	margin-top: -160px;
+	
+}
+
+.numrosita2{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+	margin-right: 46%;
+	
+}
+
+.numblanco{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #C23A57;
+	font-size: 30px;
+	margin-top: -165px;
+	position: relative;
+	margin-left: 1%;
+	
+}
+
+.numblanco2{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #E3B16A;
+	font-size: 15px;
+	position: relative;
+	margin-left: 2%;
+	
+}	
+
+.blanco{
+margin-left: 39%;
+margin-top: -195px;
+	
+}		
+
+.correr{
+	margin-left: 10%;
+	list-style: none;
+	}
+
+#bestias{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.bellita{
+	float: right;
+	margin-left: -20px;
+	}
+
+#encantos{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#duelos{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#cocina{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#ancestrales{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#acuaticos{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#intoxicados{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#equinoterapia{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#maleficios{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#culturas{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#transformaciones{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#reino{
+	box-sizing: border-box;
+	width: 85%;
+	height: 400px;
+	background-color: #E3B16A;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+
+.libro{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 65px;
+	margin-left: 17%;
+	color: #FFFFFF;
+
+}
+
+.momento{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 70px;
+	color: #FFFFFF;
+	margin-right: 40%;
+
+}
+
+.produ{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 35px;
+	color: #FFFFFF;
+	margin-right: 40%;
+	line-height: 10%;
+
+}
+
+.estrellita{
+	margin-left: 1%;
+}
+
+.estrellitapri{
+	margin-left: 17%;
+	margin-top: 3%;
+}
+
+
+.librito{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 20px;
+	margin-left: -17%;
+	color: #FFFFFF;
+
+}
+
+.coronagrande{
+	margin-top: 10%;
+	margin-left: 36%;
+}	
+
+.princesas{
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+	color: #E3B16A;
+	margin-right: 17%;
+}
+
+.estrella{
+	margin-left: 22.5%;
+}
+
+.estrellasizq{
+	margin-right: 2.5%;
+}
+
+
+.estrellasder{
+	margin-left: 2.5%;
+}
+
+.stafftitu{
+	color: #FFFFFF;
+	font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	padding-top: 2%;
+	padding-right: 9%;
+}
+
+.inscription{
+	color: #FFFFFF;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	padding-top: 2%;
+	padding-left: 3%;
+}
+
+#stafftitulo{
+	width: 100%;
+	height: 75px;
+	float: top;
+}
+
+#directivo{
+	width: 50%;
+	height: 445px;
+	float: left;
+}
+
+.direcc{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 25px;
+	text-decoration: underline;
+	margin-top: 10%;
+}
+
+.profes{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 25px;
+	margin-top: -120px;
+	text-decoration: underline;
+	margin-left: 68%;
+	position: absolute;
+}
+
+
+.charlotte{
+	color: #E3B16A;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	margin-top: 2%;
+}
+
+.general{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 23px;
+	margin-top: -27px;
+}
+
+.coordinacion{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-top: -4%;
+	padding-left: 14%;
+}
+
+.admin{
+	font-family: 'Grenze Gotisch', cursive;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-top: -4%;
+	padding-left: 73%;
+}
+
+
+.esmeralda{
+	color: #E3B16A;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+	padding-left: 13%;
+}
+
+.alicia{
+	color: #E3B16A;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+	padding-left: 71%;
+	margin-top: -37px;
+}
+
+.esme{
+	padding-left: 11%;
+}
+
+
+#docente{
+	width: 50%;
+	height: 445px;
+	float: right;
+}
+
+.fotolottie{
+	padding-left: 6.5%;
+	margin-top: -30px;
+}
+
+.fotoalicia{
+	padding-left: 6.5%;
+}
+
+#grupouno{
+	width: 100%;
+	height: 95px;
+	padding-left: 3%;
+}
+
+.elsa{
+	margin-bottom: 45%;
+	padding-left: 13%;
+}
+
+.bella{
+	margin-bottom: 45%;
+	margin-left: 1.5%
+}
+
+.coronadocente{
+	margin-bottom: 47%;
+	margin-left: 2%
+}
+
+.jazmin{
+	margin-bottom: 45%;
+	margin-left: 2.8%
+}
+
+.ariel{
+	margin-bottom: 45%;
+	margin-left: 1.5%
+
+}
+
+#grupodos{
+	width: 100%;
+	height: 95px;
+	padding-left: 3%;
+}
+
+.mulan{
+	padding-left: 13%;
+	margin-bottom: 45%
+}
+
+.tiana{
+	margin-bottom: 45%;
+	margin-left: 1.1%
+}
+
+.rapunzel{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+
+.moana{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+
+.blanca{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+
+
+#grupotres{
+	width: 100%;
+	height: 95px;
+	padding-left: 3%;
+}
+
+.merida{
+	padding-left: 13%;
+	padding-bottom: 45%
+}
+
+.aurora{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+
+.pocahontas{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+
+.cenicienta{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+
+.anna{
+	margin-bottom: 45%;
+	margin-left: 1%
+}
+#uno{
+	width: 50%;
+	height: 520px;
+	float: left;
+}
+
+#dos{
+	width: 40%;
+	height: 520px;
+	background-color: #C23A57;
+	float: right;
+	margin-right: -57px;
+
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background: url(../img/fondorosa2.png);
+	font-family: 'Bitter', serif;
+
+}
+
+#izquierda{
+	width: 33%;
+	height: 60px;
+	float: left;
+	margin-left: 4%; 
+	margin-top: 0.6%;
+}
+
+#centro{
+	width: 33%;
+	height: 60px;
+	float: left;
+}
+
+.loguito{
+  	margin-top: 3%;
+	margin-bottom: 2%;
+	padding-left: 28%;
+}	
+
+
+#derecha{
+	width: 30%
+	height: 60px;
+	float: center;
+	padding-left: 5%;
+}
+
+.redes{
+	padding-top: 0.5%;
+}	
+
+.centrado{
+	text-decoration: none;
+  padding-top: 2.1%;
+  padding-right: 4%;
+  color: #E3B16A;
+  font-family: 'Satisfy', serif;
+	font-size: 14px
+}	
+
+.coronamicroizq{
+	margin-top: 5%;
+	margin-left: 17%;
+	}
+
+.imago{
+	position: relative;
+	margin-top: 1.5%;
+	}
+
+.satisfy{
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+.satisfy2{
+	font-family: 'Satisfy', cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.bitter{
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+.bitter2{
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.grenze{
+	font-family:  'Grenze Gotisch', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+.grenze2{
+	font-family:  'Grenze Gotisch', cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+LIGHTBOX
+
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #FFFFFF;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.5;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+  outline: none;
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+
+  /* Image border */
+  border: 10px solid #E3B16A;
+}
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+
+  /* Background color behind image.
+     This is visible during transitions. */
+  background-color: #C23A57;
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../images/loading.gif) no-repeat;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../images/prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(../images/next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: pink;
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-caption a {
+  color: #4ae;
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../images/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+BASIC
+
+/* Basic sample */
+
+body{
+	overflow: scroll;
+	background-color: #C23A57;
+}
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height: 100%;
+}
+
+.flipbook-viewport .container{
+	position: relative;
+	top:20%;
+	left:50%;
+	margin-top: 15%;
+}
+
+.flipbook-viewport .flipbook{
+	width:800px;
+	height:500px;
+	left:-400px;
+	top:-300px;
+}
+
+.flipbook-viewport .page{
+	width:400px;
+	height:500px;
+	background-color: #E34B5A;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+#inscrip
+{
+	background-image: url('../img/lottiefondo.png') ;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	position: relative;
+	}
+
+#formulario{
+	width: 60%;
+	height: 80%;
+	margin-top: 4%;
+	position: absolute;
+	margin-left: 3%;
+	background-color: rgba(219,172,104,.7);
+}	
+
+#box{
+	margin-top: 1.5%;
+	padding-bottom: 3%;
+	margin-left: 5%;
+	padding-right: 3%;
+	width: 90%;
+	height: 330px;
+	background-color: #C23A57;
+	opacity: 80%;
+}
+
+.rosa{
+margin-left: 2%;
+margin-top: 1.5%;
+}
+
+#formuizq{
+width: 22%;
+height: auto;
+float: left;
+margin-left: 4%;
+}
+
+#formucentro{
+width: 22%;
+height: auto;
+float: left;
+margin-left: 4%;
+}
+
+#formuder{
+width: 46%;
+height: auto;
+float: right;
+}
+
+#dia{
+width: 50px;
+}
+
+#mes{
+width: 50px;
+}
+
+#año{
+width: 50px;
+}
+
+#codigo{
+width: 90px;
+}
+
+#calle{
+width: 100%;
+}
+
+#boton{
+	width: 100px;
+	height: 40px;
+	color: #FFFFFF;	
+	background-color:#E3B16A;
+	font-size: 20px;
+	font-family: 'Satisfy', cursive;
+	border-radius: 3px;
+	border: none;
+	float: right;
+}
+
+.mapa{
+	margin-left: 28%;
+	margin-top: 3%;
+}
+
+.titpantalla{
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-left: 2.4%;
+	margin-top: 4%;
+	text-align: center;
+}
+
+.indexfoto{
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 3%;
+border: #E3B16A 20px solid;
+border-image: url(../img/estrella.png)
+
+}
+
+.indexfoto2{
+border: #E3B16A 20px solid;
+border-image: url(../img/estrella.png)
+
+}
+
+galeria
+ul.slideruno {
+    position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slideruno li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border:2px solid red;
+}
+ul.slideruno li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slideruno li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+#navegadorgal{
+    position:relative;
+    top:200px;
+    left:50px;
+}
+
+ul.slideruno {
+    padding: 30px;
+}
+
+ul.slideruno li {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 0; 
+    transition: opacity .5s;
+    padding-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: calc( 1.5rem + 1vw );
+    text-align: center;
+    margin-left: 50%;
+}
+
+
+
+#navegadorgal {
+    width: 35%;
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 70px;
+    left: 0;
+    float: right;
+    margin-left: 58%;
+}
+
+#navegadorgal ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#navegadorgal ul li {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    box-sizing: border:box;
+}
+
+#navegadorgal a {
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E3B16A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    flex-grow: 1;
+    text-align: center;
+    border-top: 5px solid #E3B16A;
+    border-right: 1px solid #E3B16A;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#navegadorgal li:last-child a {
+    border-right: 0;
+}
+
+#navegadorgal a:hover {
+    background-color: #E3B16A;
+    color: #C23A57;
+}
+
+#navegadorgal a:active {
+    border-top-color: #E3B16A;
+    background: #FFFFFF;
+    color: #E3B16A;
+}
+
+galeriados
+
+ul.sliderdos {
+    position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.sliderdos li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding:50px;
+    border:2px solid red;
+}
+ul.sliderdos li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.sliderdos li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+#navegadorgaldos{
+    position:relative;
+    top:200px;
+    left:50px;
+}
+
+ul.sliderdos {
+    padding: 30px;
+}
+
+ul.sliderdos li {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 0; 
+    transition: opacity .5s;
+    padding-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: calc( 1.5rem + 1vw );
+    text-align: center;
+    margin-left: .3%;
+}
+
+
+
+#navegadorgaldos {
+    width: 35%;
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 70px;
+    left: 0;
+    float: right;
+    margin-left: 7%;
+}
+
+#navegadorgaldos ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#navegadorgaldos ul li {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    box-sizing: border:box;
+}
+
+#navegadorgaldos a {
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E3B16A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    flex-grow: 1;
+    text-align: center;
+    border-top: 5px solid #E3B16A;
+    border-right: 1px solid #E3B16A;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#navegadorgaldos li:last-child a {
+    border-right: 0;
+}
+
+#navegadorgaldos a:hover {
+    background-color: #E3B16A;
+    color: #C23A57;
+}
+
+#navegadorgaldos a:active {
+    border-top-color: #E3B16A;
+    background: #FFFFFF;
+    color: #E3B16A;
+}
+
+galeriatres 
+ul.slidertres {
+    position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slidertres li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 350px;
+    top: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding:50px;
+    border:2px solid red;
+    text-align: center;
+
+}
+ul.slidertres li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slidertres li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+#navegadorgaltres{
+    position:relative;
+    top:200px;
+    left:50px;
+
+}
+
+ul.slidertres {
+    padding: 30px;
+}
+
+ul.slidertres li {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 0; 
+    transition: opacity .5s;
+    padding-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: calc( 1.5rem + 1vw );
+    text-align: center;
+    margin-left: .3%;
+    margin-top: 3.4%;
+}
+
+
+
+#navegadorgaltres {
+    width: 35%;
+    position: absolute;
+    top: 650px;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+    float: right;
+    margin-left: 18%;
+    margin-top: 40%;
+}
+
+#navegadorgaltres ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#navegadorgaltres ul li {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    box-sizing: border:box;
+}
+
+#navegadorgaltres a {
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E3B16A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    flex-grow: 1;
+    text-align: center;
+    border-top: 5px solid #E3B16A;
+    border-right: 1px solid #E3B16A;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#navegadorgaltres li:last-child a {
+    border-right: 0;
+}
+
+#navegadorgaltres a:hover {
+    background-color: #E3B16A;
+    color: #C23A57;
+}
+
+#navegadorgaltres a:active {
+    border-top-color: #E3B16A;
+    background: #FFFFFF;
+    color: #E3B16A;
+}
+
+#slide19{
+   background: none;
+}
+
+.fotos{
+   width: 50%;
+   height: 220%;
+}
+
+.fotosdos{
+   width: 90%;
+   height: 230%;
+}
+
+.fotoclases{
+   width: 10%;
+   height: 230%;
+}
+
+.largostaff{
+   height: 620px;
+}
+

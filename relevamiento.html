@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Relevamiento MicroSitio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta name="viewport" content="width = 1050, user-scalable = no" />
+<script type="text/javascript" src="js/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+</head>
+<body>
+<header>	
+				<a href="indexmicro.html"><img src="img/logolb.png" class="logo"></a><h1>La Bouff</h1><h2>ESCUELA DE PRINCESAS</h2>
+				<a href="index.html" class="volver"><img src="img/estrella.png"> VOLVER AL SITIO</a> 
+			</header>
+			<nav>
+				<ul>
+					<li><a href="web.html">WEB</a><img src="img/corona.png" class="corona"></li></a>
+					<li><a href="diseno.html">DISEÑO</a><img src="img/corona.png" class="corona"></li></a>
+					<li><a href="marca.html">MARCA</a><img src="img/corona.png" class="corona"></li></a>
+					<li><a href="relevamiento.html" class="clases">RELEVAMIENTO</a>
+					</li></a>
+				</ul>
+			</nav>
+	<section id="largo2">
+		<article id="stafftitulo"><p align="center" class="stafftitu"><img src="img/estrella.png"> Relevamiento del Personaje <img src="img/estrella.png"></p></article>
+		<div class="flipbook-viewport">
+	<div class="container">
+		<div class="flipbook">
+			<div style="background-image:url(img/pagina1.png)"></div>
+			<div style="background-image:url(img/pagina2.png)"></div>
+			<div style="background-image:url(img/pagina3.png)"></div>
+			<div style="background-image:url(img/pagina4.png)"></div>
+			<div style="background-image:url(img/pagina5.png)"></div>
+			<div style="background-image:url(img/pagina6.png)"></div>
+			<div style="background-image:url(img/pagina7.png)"></div>
+			<div style="background-image:url(img/paginault.png)"></div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+function loadApp() {
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Width
+
+			width:800,
+			
+			// Height
+
+			height:500,
+
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['js/turn.js'],
+	nope: ['js/turn.html4.min.js'],
+	both: ['css/estilo.css'],
+	complete: loadApp
+});
+
+</script>
+				</section>
+				<footer>
+				<article id="izquierda" class="redes"><a href="https://www.youtube.com/"><img src="img/utube.png"></a><a href="https://www.instagram.com/?hl=es-la"><img src="img/insta.png"></a><a href="https://www.facebook.com/"><img src="img/face.png"></a>
+				</article>
+				<article id="centro"><img src="img/loguito.png" class="loguito"></article>
+				<article id="derecha"><p class="centrado" align="right">MARTINA ZÁRATE ALONSO</p></article>
+			</footer>
+		</main>
+		<div align="center" style="z-index:9;visibility:visible;"><a href="https://www.totallyfreecursors.com/" target="_blank" class="tfc"></a></div><style>HTML,BODY{cursor: url("https://downloads.totallyfreecursors.com/cursor_files/gold_star.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/gold_star.gif"), auto;}</style>	
+</body>
+</html>

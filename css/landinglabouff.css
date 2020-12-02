@@ -1,0 +1,1453 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	font-family: 'Spectral SC', serif;
+	font-size: 20px;
+}
+
+
+.grid_container{
+	display: grid;
+	background-color: #C23A57;
+	grid-gap: 20px;
+
+	
+
+	grid-template-areas:
+	"header" 
+	"presen" 
+	"años"   
+	"acti"   
+	"footer" 
+;
+}
+
+
+.header{
+	grid-area: header;
+	background-color: #C23A57;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.presen{
+	grid-area: presen;
+	background-color: #12CBC4; 
+}		
+
+.años{
+	grid-area: años;
+}		
+
+.acti{
+	grid-area: acti;
+	background-color: #C23A57;
+}		
+
+.footer{
+	grid-area: footer;
+	background-color: #D34F71;
+}
+
+@media (max-width: 600px){	
+	.grid_container{
+	grid-template:
+	"header header" 100px
+	"presen presen" 750px
+	"años   años"   660px
+	"acti   acti"   830px
+	"footer footer" 100px/
+	auto    auto;
+	;
+	}
+
+	.presen{
+	background: url(../img/mobilecel.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	background-size: cover;}
+
+	.conteaños{
+	width: 100%;
+	padding-top: 9%;
+	float: right;
+	padding-bottom: 5%;
+
+
+
+	background: url(../img/vertical.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.conteaños> div{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.actividades{
+	width: 100%;
+	padding-top: 3%;
+	margin-top: 4%;
+
+	background: url(../img/vertical.png);
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-bottom: 67%;
+
+
+
+}
+
+.formulario{
+	width: 400px;
+	height: 350px;
+	font-size: 13px;
+	text-decoration: underline white;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	box-sizing: border-box;
+	background-color: #C23A57;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	padding-left: 4.3%;
+	padding-top: 1%;
+	margin-left: 14%;
+
+
+
+
+	display: grid;
+	grid-template-columns: 140px 200px;
+	grid-template-rows: 80px 60px 80px 70px;
+	grid-gap: 5px;
+
+
+}
+
+
+.formulario > div{
+	display: block;
+
+}
+
+.formulario:hover{
+	box-shadow: inset 0 0 0 10px #FFFFFF;
+}
+
+.anterior{
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D34F71;
+	width: 100%;
+	height: 70px;
+	padding-top: 2.5%;
+	margin-top: -30px;
+
+	transition: all 0.3s ease;
+
+
+}
+
+.anterior:hover { 
+	color: #FFFFFF;
+	background: #B3688D;
+	font-size: 35px;
+}
+
+
+
+.enemigos{
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D34F71;
+	width: 100%;
+	height: 70px;
+	padding-top: 3%;
+	margin-top: 3%;
+
+	transition: all 0.3s ease;
+}
+
+.enemigos:hover { 
+	color: #FFFFFF;
+	background: #B3688D;
+	font-size: 35px;
+}
+
+#nombre::placeholder {
+  color:white;
+  font-size: 13px;
+  font-family: 'Satisfy', cursive;
+}
+
+#edad::placeholder {
+  color:white;
+  font-size: 11px;
+  font-family: 'Satisfy', cursive;
+}
+
+#tel::placeholder {
+  color:white;
+  font-size: 11px;
+  font-family: 'Satisfy', cursive;
+}
+
+#acticaja{
+background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	height: 25px;
+	margin-top: 4%;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	margin-top: -13px;
+
+}
+.titular{
+	width: 40%;
+	text-align: center;
+	color: #FFFFFF;
+	margin-left: 32.5%;
+}	
+
+#inscri{
+	font-family: 'Satisfy', cursive;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 150%;
+	margin-top: 20%;
+	margin-left: 33%;
+	width: 40%;
+
+}
+
+
+.historia{
+	width: 90%;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	margin-top: 3%;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 18px;
+
+}
+
+.habichuelas{
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+
+
+.años img{
+	width: 250px; height: 290px;
+}
+
+.ult{
+	position: 0 30px;
+}
+
+#copa{
+	position: absolute;
+	margin-left: -125px;
+	margin-top: 19.5%;
+
+
+}
+
+#copader{
+	position: absolute;
+	width: 100%
+	height:400px;
+	float: right;
+	margin-left: 77%;
+	margin-top: -470px;
+}
+
+#cuadroceni{
+	box-sizing: border-box;
+    background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	height: 250px;
+	width: 360px;
+	margin-top: 71%;
+	font-family: 'Spectral SC', serif;
+	text-align: center;
+	margin-left: 18%;
+	padding-right: 5%;
+	padding-top: 3.5%;
+	font-size: 14px;
+	text-align: right;
+	padding-left: 16%;
+
+}
+
+.cenicientafirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: right;
+	visibility: visible;
+
+
+}
+
+#cuadroceni:hover{
+	font-family: 'Satisfy', cursive;
+	font-size: 17px;
+	padding-left: 22%;
+
+}
+
+.ceni{
+	float: left;
+	margin-left: -20px;
+	position: absolute;
+	margin-top: -270px;
+
+
+}
+
+#cuadrogarfio{
+	box-sizing: border-box;
+    background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	height: 250px;
+	width: 370px;
+	margin-top: -600px;
+	font-family: 'Spectral SC', serif;
+	text-align: center;
+	margin-left: 16%;
+	padding-right: 16%;
+	padding-top: 3.5%;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 5%;
+
+
+}
+
+.garfiofirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: left;
+	visibility: visible;
+
+
+}
+
+#cuadrogarfio:hover{
+	font-family: 'Pirata One', cursive;
+	font-size: 18.5px;
+	padding-right: 22%;
+
+} 
+
+.garfio{
+	float: right;
+	margin-top: -300px;
+	margin-right: -20px;
+
+}
+.footer{
+	font-size: 23px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 2%;
+
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+
+}
+
+.nombre{
+	text-decoration: none;
+	font-family: 'Satisfy', cursive;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: 9%;
+	padding-left: 15%;
+
+}
+.redes{
+
+padding-top: 5%;
+padding-left: 10%;
+font-family: 'Satisfy', cursive;
+}
+
+
+.insta{
+margin-left: 2%;
+margin-top: 0.8%;
+position: absolute;
+}
+
+.face{
+margin-left: 8%;
+margin-top: .8%;
+position: absolute;
+}
+
+.centrado{
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+#boton{
+	width: 70px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 24%;
+	margin-left: -7px;
+	border: none;
+	background-color: #B3688D;
+	font-family: 'Pirata One', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color: (0,0,0,0);
+	
+}
+
+.activo:hover {
+	border-radius: 60px;
+	width: 70px;
+	height: 70px;
+	background-color: #B3688D;
+	color: #C23A57;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	transform: scale(1.3);
+	
+
+
+}
+}	
+
+@media (min-width: 600px){	
+	.grid_container{
+	grid-template:
+	"header   header"    100px
+	"presen   presen"    650px
+	"años     años"      350px 
+	"acti     acti"      auto
+	"footer   footer"    100px/
+	auto     auto
+	;
+	}
+
+	.presen{
+	background: url(../img/mobiletablet.png);
+	width: 100%;
+	max-width: 1000px;
+	background-repeat: no-repeat;
+	background-position: -90px -180px;
+	background-attachment: fixed;
+	background-position: cover;
+
+}	
+.conteaños{
+	width: 100%;
+	padding-top: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2%;
+
+
+	background: url(../img/fondopartesdos.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}	
+
+.actividades{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 27%;
+    display: grid;
+    background: url(../img/fondopartesdos.png) 0% 0% / cover no-repeat;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.formulario{
+	width: 400px;
+	height: 350px;
+	font-size: 13px;
+	text-decoration: underline white;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	box-sizing: border-box;
+	background-color: #C23A57;
+	color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	padding-left: 3%;
+	padding-top: 1%;
+
+
+
+
+
+	display: grid;
+	grid-template-columns: 140px 200px;
+	grid-template-rows: 80px 60px 80px 70px;
+	grid-gap: 5px;
+
+
+}
+
+
+.formulario > div{
+	display: block;
+
+}
+
+.formulario:hover{
+	box-shadow: inset 0 0 0 10px #FFFFFF;
+}
+.titular{
+	text-align: center;
+	color: #FFFFFF;
+	width: 40%;
+	margin-left: 30%;
+}
+#inscri{
+	font-family: 'Satisfy', cursive;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 150%;
+	margin-top: 8%;
+}
+
+
+.conteaños> div{
+	display: block;
+	padding-top: 1%;
+
+}
+
+.conteaños img{
+	width: 215px; height: 215px;
+}
+
+.ult img{
+	padding: 5%;
+}
+
+
+.footer{
+	font-family: 'Satisfy', cursive;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+
+
+}
+
+
+.imagenes{
+
+width: 50px; height: 50px;
+margin-bottom: 14%;
+
+}
+
+
+.garfio{
+	margin-top: -100px;
+
+}
+
+#nombre::placeholder {
+  color:white;
+  font-size: 13px;
+  font-family: 'Satisfy', cursive;
+}
+
+#edad::placeholder {
+  color:white;
+  font-size: 11px;
+  font-family: 'Satisfy', cursive;
+}
+
+#tel::placeholder {
+  color:white;
+  font-size: 11px;
+  font-family: 'Satisfy', cursive;
+}
+
+#acticaja{
+background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	height: 25px;
+	margin-top: 4%;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	margin-top: -13px;
+
+}
+
+#copa{
+	position: absolute;
+	width: 100%
+	height:400px;
+	margin-left: -110px;
+	margin-top: 2%;
+
+
+}
+
+#copader{
+	position: absolute;
+	width: 100%
+	height:400px;
+	float: right;
+	margin-left: 87.8%;
+	margin-top: -210px;
+}
+
+.historia{
+	width: 100%;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	margin-top: 3%;
+	padding-left: 17%;
+	padding-right: 17%;
+	font-size: 15px;
+
+}
+
+.habichuelas{
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+.anterior{
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D34F71;
+	width: 100%;
+	height: 60px;
+	margin-top: -30px;
+
+    transition: all 0.3s ease;
+}
+
+.anterior:hover { 
+	color: #FFFFFF;
+	background: #B3688D;
+	font-size: 35px;
+}
+
+
+
+.enemigos{
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D34F71;
+	width: 100%;
+	height: 60px;
+	padding-top: 1%;
+	margin-top: 3%;
+
+transition: all 0.3s ease;
+}
+
+.enemigos:hover { 
+	color: #FFFFFF;
+	background: #B3688D;
+	font-size: 35px;
+}
+
+#cuadroceni{
+	box-sizing: border-box;
+    background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	height: auto;
+	width: 40%;
+	font-family: 'Spectral SC', serif;
+	text-align: right;
+	font-size: 14px;
+	padding-top: 2%;
+	padding-left: 13%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	position: absolute;
+	margin-top: 3%;
+	margin-left: 8%;
+	max-height: 300px;
+
+
+
+
+}
+
+.cenicientafirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 10%;
+	visibility: visible;
+
+
+}
+
+#cuadroceni:hover{
+	font-family: 'Satisfy', cursive;
+	font-size: 18px;
+
+
+}
+
+
+
+#cuadrogarfio{
+	box-sizing: border-box;
+    background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	height: auto;
+	width: 40%;
+	font-family: 'Spectral SC', serif;
+	text-align: left;
+	font-size: 14px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 13%;
+	padding-bottom: 2%;
+	margin-left: 53%; 
+	float: right;
+	margin-top: 3%;
+	position: absolute;
+	max-height: 300px;
+}
+
+.garfiofirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: left;
+	visibility: visible;
+
+
+}
+
+#cuadrogarfio:hover{
+	font-family: 'Pirata One', cursive;
+	font-size: 19px;
+
+
+}
+
+.garfio{
+	float: right;
+	margin-top: -20px;
+	margin-left: 76%;
+	position: absolute;
+
+}
+
+.ceni{
+	margin-top: .8%;
+	position: absolute;
+	margin-left: -100px;
+
+
+}
+
+.redes{
+padding-top: 5%;
+padding-left: 10%;
+}
+
+
+.insta{
+margin-left: 2%;
+margin-top: 0.6%;
+position: absolute;
+}
+
+.face{
+margin-left: 6.5%;
+margin-top: .6%;
+position: absolute;
+}
+
+.centrado{
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	margin-top: 3.3%;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: right;
+	margin-right: 7%;
+
+}
+
+#boton{
+	width: 70px;
+	height: 40px;
+	margin-top: 22%;
+	margin-left: -7px;
+	border: none;
+	background-color: #B3688D;
+	font-family: 'Pirata One', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color: (0,0,0,0);
+	
+}
+
+.activo:hover {
+	border-radius: 60px;
+	width: 70px;
+	height: 70px;
+	background-color: #B3688D;
+	color: #C23A57;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	transform: scale(1.3);
+	
+
+
+}
+
+}	
+
+@media (max-width: 722px) and (min-width: 600px){
+.garfiofirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: left;
+	visibility: hidden;
+
+
+}
+
+.cenicientafirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 10%;
+	visibility: hidden;
+
+
+}
+}	
+
+@media (min-width: 900px){
+	.grid_container{
+	grid-template:
+	"header header header" 100px
+	"presen presen presen" 600px
+	"años   años   años"   400px
+	"acti   acti   acti"   400px
+	"footer footer footer" 100px/
+	200px   auto  200px;
+	;
+}
+
+
+
+	.presen{
+	background: url(../img/sincastillo.png);
+	background-repeat: no-repeat;
+	background-position: -40px 0;
+	background-size: cover;
+	background-attachment: fixed;
+	max-width: 100%;
+}
+
+.conteaños{
+	background: url(../img/fondopartesdos.png);
+	background-repeat: no-repeat;
+	height: 400px;
+
+}
+.actividades{
+	width: 100%;
+	background: url(../img/fondopartesdos.png);
+	background-repeat: no-repeat;
+	height: 400px;
+
+
+}
+.formulario{
+	width: 400px;
+	height: 350px;
+	font-size: 13px;
+	text-decoration: underline white;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	box-sizing: border-box;
+	background-color: #C23A57;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	padding-left: 2%;
+	padding-top: 1%;
+
+
+
+
+	display: grid;
+	grid-template-columns: 140px 200px;
+	grid-template-rows: 80px 60px 80px 70px;
+	grid-gap: 5px;
+
+	transition: all 0.3 ease;
+
+}
+
+.formulario:hover{
+	box-shadow: inset 0 0 0 10px #FFFFFF;
+}
+
+
+.formulario > div{
+	display: block;
+
+}
+
+.titular{
+	color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	margin-left: -13px;
+}
+#inscri{
+	font-family: 'Satisfy', cursive;
+	font-size: 28px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 150%;
+	margin-top: 4%;
+}
+
+.anterior{
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D34F71;
+	width: 100%;
+	height: 70px;
+	margin-top: -70px;
+	padding-top: 5%;
+
+	transition: all 0.3s ease;
+}
+
+.anterior:hover { 
+	color: #FFFFFF;
+	background: #B3688D;
+	font-size: 35px;
+}
+
+.enemigos{
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D34F71;
+	width: 100%;
+	margin-top: -.1px;
+	margin-top: 2%;
+	height: 70px;
+
+transition: all 0.3s ease;
+}
+
+.enemigos:hover { 
+	color: #FFFFFF;
+	background: #B3688D;
+	font-size: 35px;
+}
+
+.footer{
+	font-family: 'Satisfy', cursive;
+	font-size: 23px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+
+
+}
+
+.nombre{
+	padding-left: 50%;
+	text-decoration: none;
+	font-family: 'Satisfy', cursive;
+	font-size: 23px;
+	color: #FFFFFF;
+	margin-top: -12px;
+	text-decoration: none;
+ 
+
+}
+
+.redes{
+	padding-top: 4%;
+}
+
+.historia{
+	width: 100%;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	font-size: 18px;
+	margin-top: 3%;
+
+}
+
+.habichuelas{
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.imagenes{
+
+width: 100%;
+display: inline;
+
+}
+
+.ceni{
+	float: left;
+	margin-top: -33px;
+	margin-left: .1%;
+
+
+}
+
+.garfio{
+	float: right;
+	margin-left: 83%;
+	margin-top: -50px;
+}
+.centrado{
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#copa{
+	position: absolute;
+	width: 100%
+	height:400px;
+	margin-left: -110px;
+	margin-top: -.1px;
+	margin-top: 4.3%;
+
+
+}
+
+#copader{
+	position: absolute;
+	width: 100%
+	height:400px;
+	float: right;
+	margin-left: 92.3%;
+	margin-top: 0.1%;
+	margin-top: -170px;
+}
+
+#nombre::placeholder {
+  color:white;
+  font-size: 13px;
+  font-family: 'Satisfy', cursive;
+}
+
+#edad::placeholder {
+  color:white;
+  font-size: 11px;
+  font-family: 'Satisfy', cursive;
+}
+
+#tel::placeholder {
+  color:white;
+  font-size: 11px;
+  font-family: 'Satisfy', cursive;
+}
+
+#colegios{
+	color: #B3688D;
+	text-decoration: none;
+	font-size: 15px;
+}	
+
+#acticaja{
+background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	height: 25px;
+	margin-top: 4%;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	margin-top: -13px;
+
+}
+
+#cuadroceni{
+	box-sizing: border-box;
+    background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	height: auto;
+	width: 38%;
+	margin-top: 3%;
+	font-family: 'Spectral SC', serif;
+	font-size: 15.2px;
+	text-align: right;
+	position: absolute;
+	padding-left: 12%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	margin-left: 9%;
+
+
+
+}
+
+.cenicientafirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', serif;
+	font-size: 12px;
+	text-align: right;
+	margin-top: -.1px;
+
+
+}
+
+#cuadroceni:hover{	
+	font-family: 'Satisfy', cursive;	
+	font-size: 19px;
+}
+
+
+
+#cuadrogarfio{
+	box-sizing: border-box;
+    background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	height: auto;
+	width: 40%;
+	font-family: 'Spectral SC', serif;
+	float: right;
+	text-align: left;
+	font-size: 15px;
+	padding-top: 1%;
+	padding-left: 1.5%;
+	padding-right: 12%;
+	margin-left: 54%;
+	padding-bottom: 2%;
+
+}
+
+.garfiofirma{
+	color: #FFFFFF;
+	font-family: 'Spectral SC', cursive;
+	font-size: 12px;
+	text-align: left;
+
+
+}
+
+#cuadrogarfio:hover{	
+	font-family: 'Pirata One', cursive;	
+	font-size: 21px;
+}
+
+
+.insta{
+margin-left: 1.5%;
+margin-top: .3%;
+position: absolute;
+}
+
+.face{
+margin-left: 4.6%;
+margin-top: .4%;
+position: absolute;
+}
+
+#boton{
+	width: 70px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18%;
+	margin-left: -7px;
+	border: none;
+	background-color: #B3688D;
+	font-family: 'Pirata One', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color: (0,0,0,0);
+	
+}
+
+.activo:hover {
+	border-radius: 60px;
+	width: 70px;
+	height: 70px;
+	background-color: #B3688D;
+	color: #C23A57;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+	transform: scale(1.3);
+	
+
+
+}
+
+
+}
+
+.perla{
+	padding-top: 4%;
+	padding-left: 7%;
+
+	transition: all 0.3s ease;
+}
+
+.perla:hover{
+	transform: scale(1.1);
+}
+
+
+.labouff{
+	padding-top: 5%;
+	text-align: right;
+	padding-right: 10%;
+
+	transition: all 0.3s ease;
+}
+
+.labouff:hover{
+	transform: scale(1.1);
+}
+
+.pirata{
+	font-family: 'Pirata One', cursive;
+	font-size: 35px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 2%;
+}	
+
+.vs{
+	font-family: 'Spectral SC', serif;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 70%;
+}	
+
+
+.princess{
+	font-family: 'Satisfy', cursive;
+	font-size: 32px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 100%;
+
+}
+
+.centro{
+	background-position: 50% 50%;
+}
+
+.centro:hover{
+	transform: scale(1.1);
+}
+
+
+h1{
+	font-family: 'Cinzel', serif;
+	font-size: 28px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration-line: underline;
+}
+
+h2{
+	font-family: 'Spectral SC', serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+
+
+.largo{
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+
+.largo2
+{
+	grid-column-start: 1;
+	grid-column-end: -1;
+
+	grid-row-start: 3;
+
+}
+
+#nombre{
+	width: 90%;
+	height: 30px;
+	text-decoration: none;
+	background-color: #D34F71;
+	text-decoration-color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: -3px;
+}
+
+#edad{
+	width: 50%;
+	margin-top: 5%;
+	text-decoration: none;
+	background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	height: 25px;
+	margin-top: -13px;
+}
+
+#tel{
+	margin-top: 3%;
+	text-decoration: none;
+	background-color: #D34F71;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	height: 25px;
+	margin-top: -13px;
+}
+
+
+
+a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.hipervinculo:hover {
+	background-color: #FFFFFF;
+	color: #C23A57;
+	text-decoration: underline #C23A57;
+	font-weight: bold;
+
+}
+
+
